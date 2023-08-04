@@ -27,12 +27,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'yarn'
+          cache: "yarn"
 
       - run: yarn
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: madethis/lint-action@v2023.8.4
         with:
           tsc: true
 
