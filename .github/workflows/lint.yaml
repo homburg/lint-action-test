@@ -32,7 +32,7 @@ jobs:
       - run: yarn
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
+        uses: madethis/lint-action
         with:
           tsc: true
           tsc_args: -b
