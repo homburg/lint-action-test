@@ -35,6 +35,7 @@ jobs:
         uses: wearerequired/lint-action@v2
         with:
           tsc: true
+          tsc_args: -b
 
           eslint: true
           eslint_extensions: js,ts,tsx
