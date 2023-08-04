@@ -35,7 +35,6 @@ jobs:
         uses: madethis/lint-action@main
         with:
           tsc: true
-          tsc_args: -b
 
           eslint: true
           eslint_extensions: js,ts,tsx
