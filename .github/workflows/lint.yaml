@@ -32,7 +32,7 @@ jobs:
       - run: yarn
 
       - name: Run linters
-        uses: madethis/lint-action@main
+        uses: madethis/lint-action@v2023.8.4
         with:
           tsc: true
 
